@@ -1,22 +1,33 @@
-.App {
-  text-align: center;
-}
+/* footer */
+footer {
+  background: #d7f0e8;
+  width: 100%;
+  padding: 40px;
+  color: #000000;
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #09d3ac;
+header {
+  background: rgb(227, 238, 217);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+
+  align-items: center;
+}
+header .buscador {
+  display: flex;
+  justify-content: space-around;
+}
+
+header .logo img {
+  width: 10px;
+
+  padding-top: 1px;
+  padding: 1px;
 }
