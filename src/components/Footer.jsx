@@ -8,7 +8,7 @@ export default class Footer extends Component {
     return (
       <footer className="footer">
         <p>
-          Samuel David Roncancio Bohorquez <br />
+          Samuel David <br />
           Copyright 2019 - All rights reserved
         </p>
         <a
